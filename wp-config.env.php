@@ -25,16 +25,16 @@
  *
  */
 switch ($hostname) {
-    case 'domain.dev':
-        define('WP_ENV', 'development');
+    case 'domain.d3v':
+        define('WP_ENV', 'dev');
         break;
     
-    case 'staging.domain.com':
-        define('WP_ENV', 'staging');
+    case 'staging.smng.fyi':
+        define('WP_ENV', 'stage');
         break;
 
-    case 'www.domain.com':
+    case 'www.domain.de':
     default: 
-        define('WP_ENV', 'production');
+        define('WP_ENV', 'prod');
 }
 
